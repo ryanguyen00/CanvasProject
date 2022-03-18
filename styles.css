@@ -17,3 +17,4 @@ ctx.font = "24px Helvetica";
 ctx.textAlign = "left";
 ctx.textBaseline = "top";
 ctx.fillText("Monsters caught: " + monstersCaught, 32, 32);  */
+
