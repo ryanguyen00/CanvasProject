@@ -1,6 +1,6 @@
 #countdown {
     z-index: 1;
-    position:relative; 
+     position:absolute;   
     /* move thing to where it currently is. move down means move away top
     
     absolute - take the whole thing away from browser and put it on top of something*/
@@ -12,9 +12,6 @@
 } 
 
 
-/* ctx.fillStyle = "rgb(250, 250, 250)";
-ctx.font = "24px Helvetica";
-ctx.textAlign = "left";
-ctx.textBaseline = "top";
-ctx.fillText("Monsters caught: " + monstersCaught, 32, 32);  */
-
+body {
+    margin: 0;
+}
